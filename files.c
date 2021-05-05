@@ -201,7 +201,7 @@ void remove_dir(char *dirName){
     }
     
     if (rmdir(dirName) == 0){
-        //continu
+        //continue
     } else {
         printf("Can`t remove a directory: %s\n", path);
     }
